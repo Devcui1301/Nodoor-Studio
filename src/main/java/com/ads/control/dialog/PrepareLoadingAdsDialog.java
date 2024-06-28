@@ -5,7 +5,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 
-import com.ads.gam.R;
+import com.nodoor.module.R;
 
 
 public class PrepareLoadingAdsDialog extends Dialog {

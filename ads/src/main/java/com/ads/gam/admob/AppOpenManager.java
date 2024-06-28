@@ -24,7 +24,7 @@ import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.OnLifecycleEvent;
 import androidx.lifecycle.ProcessLifecycleOwner;
 
-import com.ads.gam.R;
+import com.nodoor.module.R;
 import com.ads.gam.billing.AppPurchase;
 import com.ads.gam.config.GamAdConfig;
 import com.ads.gam.dialog.PrepareLoadingAdsDialog;

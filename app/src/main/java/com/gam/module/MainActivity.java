@@ -21,6 +21,8 @@ import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.rewarded.RewardItem;
 import com.google.android.gms.ads.rewarded.RewardedAd;
+import com.nodoor.module.BuildConfig;
+import com.nodoor.module.R;
 
 public class MainActivity extends AppCompatActivity {
     private ApInterstitialAd mInterstitialAd;

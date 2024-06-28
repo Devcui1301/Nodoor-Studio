@@ -13,7 +13,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 
 import com.ads.gam.Admod;
-import com.ads.gam.R;
+import com.nodoor.module.R;
 import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.android.gms.ads.formats.UnifiedNativeAd;
 import com.google.android.gms.ads.formats.UnifiedNativeAdView;

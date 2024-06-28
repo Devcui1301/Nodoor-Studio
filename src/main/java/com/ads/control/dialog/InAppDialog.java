@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.ads.gam.Purchase;
-import com.ads.gam.R;
+import com.nodoor.module.R;
 
 
 public class InAppDialog extends Dialog {

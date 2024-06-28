@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.ads.gam.R;
+import com.nodoor.module.R;
 import com.ads.gam.funtion.PurchaseListener;
 import com.ads.gam.util.AppUtil;
 import com.android.billingclient.api.ProductDetails;

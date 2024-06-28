@@ -7,6 +7,8 @@ import com.ads.gam.application.AdsMultiDexApplication;
 import com.ads.gam.billing.AppPurchase;
 import com.ads.gam.config.AdjustConfig;
 import com.ads.gam.config.GamAdConfig;
+import com.nodoor.module.BuildConfig;
+import com.nodoor.module.R;
 
 import java.util.ArrayList;
 import java.util.List;

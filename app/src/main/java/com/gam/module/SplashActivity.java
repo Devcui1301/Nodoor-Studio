@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.ads.gam.ads.GamAd;
 import com.ads.gam.funtion.AdCallback;
+import com.nodoor.module.BuildConfig;
+import com.nodoor.module.R;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
