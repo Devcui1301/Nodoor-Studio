@@ -7,9 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.nodoor.module.Purchase;
 import com.nodoor.module.R;
-
+import com.nodoor.module.billing.AppPurchase;
 
 public class InAppDialog extends Dialog {
     private Context mContext;
@@ -39,27 +38,26 @@ public class InAppDialog extends Dialog {
             }
         });
 
-        findViewById(R.id.tv_pucharse).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.tv_purchase).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                callback.onPurcharse();
+                callback.onPurchase();
             }
         });
         TextView tvOldPrice = findViewById(R.id.tv_old_price);
         TextView tvPrice = findViewById(R.id.tv_price);
-        if (Purchase.getInstance().getDiscount() == 1) {
+        if (AppPurchase.getInstance().getDiscount() == 1) {
             tvOldPrice.setVisibility(View.GONE);
             findViewById(R.id.view_split).setVisibility(View.GONE);
         } else {
             tvOldPrice.setVisibility(View.VISIBLE);
             findViewById(R.id.view_split).setVisibility(View.VISIBLE);
         }
-        tvOldPrice.setText(Purchase.getInstance().getOldPrice());
-        tvPrice.setText(Purchase.getInstance().getPrice());
+        tvPrice.setText(AppPurchase.getInstance().getPrice(AppPurchase.PRODUCT_ID_TEST));
         tvOldPrice.setPaintFlags(tvOldPrice.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
     }
 
     public interface ICallback {
-        void onPurcharse();
+        void onPurchase();
     }
 }

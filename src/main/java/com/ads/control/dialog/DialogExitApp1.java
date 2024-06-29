@@ -1,4 +1,4 @@
-package com.ads.gam.dialog;
+package com.nodoor.module.dialog;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.ads.gam.Admod;
+import com.nodoor.module.Admod;
 import com.nodoor.module.R;
 import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.android.gms.ads.formats.UnifiedNativeAd;

@@ -13,7 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
         def formattedDate = new Date().format('MMM.dd.yyyy')
-        archivesBaseName = "GamStudio_v${versionName}(${versionCode})_${formattedDate}"
+        archivesBaseName = "com_nodoor_module_v${versionName}(${versionCode})_${formattedDate}"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -24,7 +24,9 @@ android {
             signingConfig signingConfigs.debug
         }
     }
-
+    dexOptions {
+        additionalParameters '--keep-classes', 'com.nodoor.module.BuildConfig'
+    }
     buildFeatures {
         buildConfig = true
     }

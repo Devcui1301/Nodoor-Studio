@@ -1,4 +1,4 @@
-package com.ads.gam.funtion;
+package com.nodoor.module.funtion;
 
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.formats.UnifiedNativeAd;

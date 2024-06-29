@@ -1,4 +1,4 @@
-package com.ads.gam;
+package com.nodoor.module;
 
 import androidx.multidex.MultiDexApplication;
 

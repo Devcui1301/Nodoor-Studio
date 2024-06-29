@@ -1,4 +1,4 @@
-package com.ads.gam.dialog;
+package com.nodoor.module.dialog;
 
 import android.content.Context;
 import android.view.Gravity;

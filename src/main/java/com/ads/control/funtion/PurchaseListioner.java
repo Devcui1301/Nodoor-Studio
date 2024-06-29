@@ -1,4 +1,4 @@
-package com.ads.gam.funtion;
+package com.nodoor.module.funtion;
 
 public interface PurchaseListioner {
     void onProductPurchased(String productId);
